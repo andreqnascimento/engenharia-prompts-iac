@@ -1,8 +1,8 @@
 # Engenharia de Prompts para Análise de IaC
 
-**Nome:** André Queiroz do Nascimento
-**RA:** 2203490
-**Objetivo:** Demonstrar domínio de Prompt Engineering criando 3 versões evolutivas de um prompt para análise automática de Pull Requests.
+- **Nome:** André Queiroz do Nascimento
+- **RA:** 2203490
+- **Objetivo:** Demonstrar domínio de Prompt Engineering criando 3 versões evolutivas de um prompt para análise automática de Pull Requests.
 
 ## Estrutura do Projeto
 
@@ -34,3 +34,4 @@
 
 
 **Conclusão:** A v3 foi a única capaz de bloquear o ataque de injeção (rejeitando o PR6) e fornecer uma análise financeira detalhada.
+
