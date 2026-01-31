@@ -1,18 +1,20 @@
 # Engenharia de Prompts para Análise de IaC
 
-- **Nome:** André Queiroz do Nascimento
-- **RA:** 2203490
-- **Objetivo:** Demonstrar domínio de Prompt Engineering criando 3 versões evolutivas de um prompt para análise automática de Pull Requests.
+* **Nome:** André Queiroz do Nascimento
+* **RA:** 2203490
+* **Objetivo:** Demonstrar domínio de Prompt Engineering criando 3 versões evolutivas de um prompt para análise automática de Pull Requests.
 
-## Estrutura do Projeto
+---
 
-text
+## 📂 Estrutura do Projeto
+
+```text
 ├── prompts/
-│   ├── v1-baseline.md    (Versão básica sem proteções)
-│   ├── v2-structured.md  (Versão com formatação padronizada)
-│   └── v3-schema.md      (Versão segura contra Prompt Injection e focada em FinOps)
-├── resultados/           (Evidências dos testes realizados)
-└── README.md
+│   ├── v1-baseline.md       # Versão básica sem proteções
+│   ├── v2-structured.md     # Versão com formatação padronizada
+│   └── v3-schema.md         # Versão segura contra Prompt Injection e focada em FinOps
+├── resultados/              # Evidências dos testes realizados
+└── README.md                # Documentação do projeto
 
 ## Raciocínio e Evolução
 
@@ -34,5 +36,6 @@ text
 
 
 **Conclusão:** A v3 foi a única capaz de bloquear o ataque de injeção (rejeitando o PR6) e fornecer uma análise financeira detalhada.
+
 
 
